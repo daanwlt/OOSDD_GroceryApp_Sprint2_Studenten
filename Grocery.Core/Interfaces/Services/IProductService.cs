@@ -5,6 +5,7 @@ namespace Grocery.Core.Interfaces.Services
     public interface IProductService
     {
         public List<Product> GetAll();
+        public List<Product> GetAvailableProducts(int groceryListId);
 
         public Product Add(Product item);
 
